@@ -1,9 +1,11 @@
-import './App.css'
+import RootLayout from "./layout/RootLayout"
 
 function App() {
   return (
     <>
-      <h1 className='font-bold text-red-600'>Project init using react + tailwind</h1>
+      <div className="bg-primary font-roboto">
+        <RootLayout/>
+      </div>
     </>
   )
 }
