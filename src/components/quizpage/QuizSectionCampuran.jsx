@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+
 import PropTypes from "prop-types";
-import ScorePage from "./ScorePage";
+import { useState, useEffect } from "react";
 import CountdownTimer from "./CountdownTimer";
 
-function QuizSection({ questionType, questionData, listQuestion }) {
+function QuizSectionCampuran({ questionType, questionData, listQuestion, onFinish }) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(60); 
@@ -16,36 +16,29 @@ function QuizSection({ questionType, questionData, listQuestion }) {
       setQuizFinished(true);
       calculateAccuracy();
     }
-  }, [timeLeft, quizFinished, score]);
+  }, [timeLeft, quizFinished])
 
   const calculateAccuracy = () => {
     const totalQuestions = listQuestion.length;
-    const calculatedAccuracy = (score / totalQuestions) * 100;
-    setAccuracy(calculatedAccuracy.toFixed(2));
+    const calculatedAccuracy = ((score / totalQuestions) * 100).toFixed(2);
+    setAccuracy(calculatedAccuracy);
+    onFinish(questionType, score, accuracy)
   };
 
   const handleSelected = (option) => {
-    let updatedScore = score;
     if (option === currentQuestion.answer) {
-      updatedScore += 1;
-      setScore(updatedScore);
-      console.log(`Anda benar pada jawaban ${option} dengan score: ${updatedScore}`);
-    } else {
-      console.log(`Anda salah pada jawaban ${option} dengan score: ${updatedScore}`);
+      setScore((prevScore) => prevScore + 1);
     }
-
-    setTimeout(() => {
-      if (currentQuestionIndex < listQuestion.length - 1 && timeLeft > 0) {
-        setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
-      } else if (!quizFinished) {
-        setQuizFinished(true);
-        calculateAccuracy();
-      }
-    }, 100);
+    if (currentQuestionIndex < listQuestion.length - 1) {
+      setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
+    } else {
+      setQuizFinished(true);
+      calculateAccuracy();
+    }
   };
 
   if (quizFinished) {
-    return <ScorePage quizType={questionType} score={score} accuracy={accuracy} />;
+    return null
   }
 
   return (
@@ -120,10 +113,11 @@ function QuizSection({ questionType, questionData, listQuestion }) {
   );
 }
 
-QuizSection.propTypes = {
-  questionType: PropTypes.string,
-  listQuestion: PropTypes.array,
-  questionData: PropTypes.array,
+QuizSectionCampuran.propTypes = {
+  questionType: PropTypes.string.isRequired,
+  questionData: PropTypes.array.isRequired,
+  listQuestion: PropTypes.array.isRequired,
+  onFinish: PropTypes.func.isRequired,
 };
 
-export default QuizSection;
+export default QuizSectionCampuran;

@@ -1,0 +1,113 @@
+[
+    {
+        "displayedOptions": ["&phi;", "&#8712;", "&epsilon;", "&Iota;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "D"
+    },
+    {
+        "displayedOptions": ["&Iota;", "&epsilon;", "&#8714;", "&phi;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "C"
+    },
+    {
+        "displayedOptions": ["&#8712;", "&phi;", "&epsilon;", "&#8714;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "E"
+    },
+    {
+        "displayedOptions": ["&phi;", "&Iota;", "&#8714;", "&epsilon;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "C"
+    },
+    {
+        "displayedOptions": ["&epsilon;", "&#8712;", "&phi;", "&#8714;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "E"
+    },
+    {
+        "displayedOptions": ["&#8714;", "&phi;", "&#8712;", "&Iota;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "A"
+    },
+    {
+        "displayedOptions": ["&#8712;", "&Iota;", "&phi;", "&#8714;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "A"
+    },
+    {
+        "displayedOptions": ["&phi;", "&epsilon;", "&Iota;", "&#8714;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "C"
+    },
+    {
+        "displayedOptions": ["&epsilon;", "&#8714;", "&phi;", "&#8712;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "E"
+    },
+    {
+        "displayedOptions": ["&#8714;", "&epsilon;", "&#8712;", "&phi;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "E"
+    },
+    {
+        "displayedOptions": ["&#8712;", "&phi;", "&Iota;", "&epsilon;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "D"
+    },
+    {
+        "displayedOptions": ["&Iota;", "&#8714;", "&epsilon;", "&#8712;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "B"
+    },
+    {
+        "displayedOptions": ["&phi;", "&Iota;", "&epsilon;", "&#8712;"], 
+        "options": ["A", "B", "C", "D", "E"], 
+        "answer": "D"
+    },
+    {"displayedOptions": ["&epsilon;", "&#8712;", "&#8714;", "&phi;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&phi;", "&#8714;", "&Iota;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "A"},
+    {"displayedOptions": ["&#8712;", "&phi;", "&epsilon;", "&Iota;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&Iota;", "&epsilon;", "&#8714;", "&phi;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": ["&#8714;", "&phi;", "&#8712;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&phi;", "&#8712;", "&Iota;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&phi;", "&#8712;", "&Iota;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&phi;", "&Iota;", "&epsilon;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&#8714;", "&phi;", "&#8712;", "&Iota;"], "options": ["A", "B", "C", "D", "E"], "answer": "A"},
+    {"displayedOptions": ["&phi;", "&#8714;", "&Iota;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "A"},
+    {"displayedOptions": ["&phi;", "&Iota;", "&#8714;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": ["&#8712;", "&phi;", "&epsilon;", "&#8714;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&Iota;", "&#8714;", "&epsilon;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "B"},
+    {"displayedOptions": ["&Iota;", "&#8714;", "&#8712;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "B"},
+    {"displayedOptions": ["&phi;", "&#8714;", "&Iota;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "A"},
+    {"displayedOptions": ["&Iota;", "&epsilon;", "&#8714;", "&phi;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": ["&phi;", "&#8712;", "&epsilon;", "&Iota;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&phi;", "&epsilon;", "&Iota;", "&#8714;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": [ "&Iota;","&phi;", "&#8714;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": ["&epsilon;", "&#8714;", "&phi;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&#8712;", "&Iota;", "&phi;", "&#8714;"], "options": ["A", "B", "C", "D", "E"], "answer": "A"},
+    {"displayedOptions": ["&phi;", "&epsilon;", "&Iota;", "&#8714;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": ["&epsilon;", "&#8714;", "&phi;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&#8714;", "&epsilon;", "&#8712;", "&phi;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&#8712;", "&phi;", "&Iota;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&Iota;", "&#8714;", "&epsilon;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "B"},
+    {"displayedOptions": ["&phi;", "&Iota;", "&epsilon;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&epsilon;", "&#8712;", "&#8714;", "&phi;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&Iota;", "&epsilon;", "&#8714;", "&phi;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": ["&#8712;", "&phi;", "&epsilon;", "&#8714;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&phi;", "&Iota;", "&#8714;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": ["&epsilon;", "&#8712;", "&phi;", "&#8714;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&#8714;", "&phi;", "&#8712;", "&Iota;"], "options": ["A", "B", "C", "D", "E"], "answer": "A"},
+    {"displayedOptions": ["&#8712;", "&Iota;", "&phi;", "&#8714;"], "options": ["A", "B", "C", "D", "E"], "answer": "A"},
+    {"displayedOptions": ["&phi;", "&epsilon;", "&Iota;", "&#8714;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": ["&phi;", "&epsilon;", "&Iota;", "&#8714;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": ["&epsilon;", "&#8714;", "&phi;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&#8714;", "&epsilon;", "&#8712;", "&phi;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&#8712;", "&phi;", "&Iota;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&Iota;", "&#8714;", "&epsilon;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "B"},
+    {"displayedOptions": ["&phi;", "&Iota;", "&epsilon;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&epsilon;", "&#8712;", "&#8714;", "&phi;"], "options": ["A", "B", "C", "D", "E"], "answer": "E"},
+    {"displayedOptions": ["&Iota;", "&epsilon;", "&#8714;", "&phi;"], "options": ["A", "B", "C", "D", "E"], "answer": "C"},
+    {"displayedOptions": ["&phi;", "&#8712;", "&Iota;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&phi;", "&#8712;", "&Iota;", "&epsilon;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"},
+    {"displayedOptions": ["&phi;", "&Iota;", "&epsilon;", "&#8712;"], "options": ["A", "B", "C", "D", "E"], "answer": "D"}
+]

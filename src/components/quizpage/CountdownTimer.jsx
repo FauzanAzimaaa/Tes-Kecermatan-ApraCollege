@@ -14,7 +14,7 @@ const CountdownTimer = ({ timeLeft, setTimeLeft }) => {
 
   return (
     <div className="flex flex-col items-center justify-center h-fit w-fit bg-transparent">
-      <div className="text-6xl font-bold text-white">{timeLeft}s</div>
+      <div className="text-4xl lg:text-6xl font-bold text-white">{timeLeft}s</div>
     </div>
   );
 };
