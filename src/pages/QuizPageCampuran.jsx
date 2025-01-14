@@ -28,23 +28,20 @@ function QuizPageCampuran() {
     },
   ];
 
-  const [currentStage, setCurrentStage] = useState(0); // Menyimpan tahap saat ini
-  const [isCountdown, setIsCountdown] = useState(true); // Menentukan apakah countdown ditampilkan
-  const [quizResults, setQuizResults] = useState([]); // Menyimpan hasil dari semua kuis
+  const [currentStage, setCurrentStage] = useState(0)
+  const [isCountdown, setIsCountdown] = useState(true)
+  const [quizResults, setQuizResults] = useState([])
 
   const handleQuizFinish = (quizType, score, accuracy) => {
-    // Simpan hasil kuis
     setQuizResults((prevResults) => [
       ...prevResults,
       { quizType, score, accuracy },
     ]);
 
     if (currentStage < quizStages.length - 1) {
-      // Jika masih ada kuis berikutnya, tampilkan countdown lagi
       setCurrentStage((prevStage) => prevStage + 1);
       setIsCountdown(true);
     } else {
-      // Jika semua kuis selesai, hentikan countdown dan biarkan ScorePage ditampilkan
       setIsCountdown(false);
     }
   };

@@ -6,9 +6,8 @@ import CountdownTimer from "./CountdownTimer";
 function QuizSectionCampuran({ questionType, questionData, listQuestion, onFinish }) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(60); 
+  const [timeLeft, setTimeLeft] = useState(5); 
   const [quizFinished, setQuizFinished] = useState(false);
-  const [accuracy, setAccuracy] = useState(0);
   const currentQuestion = listQuestion[currentQuestionIndex];
 
   useEffect(() => {
@@ -16,13 +15,12 @@ function QuizSectionCampuran({ questionType, questionData, listQuestion, onFinis
       setQuizFinished(true);
       calculateAccuracy();
     }
-  }, [timeLeft, quizFinished])
+  }, [timeLeft, quizFinished]);
 
   const calculateAccuracy = () => {
     const totalQuestions = listQuestion.length;
     const calculatedAccuracy = ((score / totalQuestions) * 100).toFixed(2);
-    setAccuracy(calculatedAccuracy);
-    onFinish(questionType, score, accuracy)
+    onFinish(questionType, score, calculatedAccuracy); // Gunakan hasil langsung
   };
 
   const handleSelected = (option) => {
@@ -38,7 +36,7 @@ function QuizSectionCampuran({ questionType, questionData, listQuestion, onFinis
   };
 
   if (quizFinished) {
-    return null
+    return null;
   }
 
   return (
