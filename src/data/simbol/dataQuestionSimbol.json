@@ -1,0 +1,72 @@
+[
+    [
+        {"answer" : "&#10003", "option" : "A"}, 
+        {"answer" : "&#9837", "option" : "B"}, 
+        {"answer" : "&#182", "option" : "C"}, 
+        {"answer" : "&#8456", "option" : "D"}, 
+        {"answer" : "&#8455", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#8472", "option" : "A"}, 
+        {"answer" : "&#10003", "option" : "B"}, 
+        {"answer" : "&#182", "option" : "C"}, 
+        {"answer" : "&#8455", "option" : "D"}, 
+        {"answer" : "&#9833", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#8485", "option" : "A"}, 
+        {"answer" : "&#8487", "option" : "B"}, 
+        {"answer" : "&#8488", "option" : "C"}, 
+        {"answer" : "&#8514", "option" : "D"}, 
+        {"answer" : "&#8515", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#8514", "option" : "A"}, 
+        {"answer" : "&#8472", "option" : "B"}, 
+        {"answer" : "&#10003", "option" : "C"}, 
+        {"answer" : "&#8456", "option" : "D"}, 
+        {"answer" : "&#8485", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#8485", "option" : "A"}, 
+        {"answer" : "&#8455", "option" : "B"}, 
+        {"answer" : "&#10003", "option" : "C"}, 
+        {"answer" : "&#9837", "option" : "D"}, 
+        {"answer" : "&#8472", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#10003", "option" : "A"}, 
+        {"answer" : "&#8456", "option" : "B"}, 
+        {"answer" : "&#8455", "option" : "C"}, 
+        {"answer" : "&#8472", "option" : "D"}, 
+        {"answer" : "&#8473", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#8515", "option" : "A"}, 
+        {"answer" : "&#8455", "option" : "B"}, 
+        {"answer" : "&#9837", "option" : "C"}, 
+        {"answer" : "&#9833", "option" : "D"}, 
+        {"answer" : "&#8485", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#8514", "option" : "A"}, 
+        {"answer" : "&#8487", "option" : "B"}, 
+        {"answer" : "&#8488", "option" : "C"}, 
+        {"answer" : "&#182", "option" : "D"}, 
+        {"answer" : "&#8485", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#8456", "option" : "A"}, 
+        {"answer" : "&#8514", "option" : "B"}, 
+        {"answer" : "&#8473", "option" : "C"}, 
+        {"answer" : "&#8455", "option" : "D"}, 
+        {"answer" : "&#9833", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#8515", "option" : "A"}, 
+        {"answer" : "&#9837", "option" : "B"}, 
+        {"answer" : "&#10003", "option" : "C"}, 
+        {"answer" : "&#8488", "option" : "D"}, 
+        {"answer" : "&#8485", "option" : "E"}
+    ]
+]

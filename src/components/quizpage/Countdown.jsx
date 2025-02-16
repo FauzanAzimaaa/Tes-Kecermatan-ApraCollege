@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
-function Countdown({ initialTime, onTimeEnd }) {
+function Countdown({initialTime, onTimeEnd}) {
     const [timeLeft, setTimeLeft] = useState(initialTime);
 
     useEffect(() => {
         if (timeLeft === 0) {
-            if (onTimeEnd) onTimeEnd(); // Memanggil callback saat waktu habis
+            if (onTimeEnd) onTimeEnd()
             return;
         }
 
@@ -14,7 +14,7 @@ function Countdown({ initialTime, onTimeEnd }) {
             setTimeLeft((prev) => prev - 1);
         }, 1000);
 
-        return () => clearInterval(timer); // Membersihkan timer
+        return () => clearInterval(timer)
     }, [timeLeft, onTimeEnd]);
 
     return (

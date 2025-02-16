@@ -1,0 +1,72 @@
+[
+    [
+        {"answer" : "7", "option" : "A"}, 
+        {"answer" : "H", "option" : "B"}, 
+        {"answer" : "C", "option" : "C"}, 
+        {"answer" : "&#8485", "option" : "D"}, 
+        {"answer" : "3", "option" : "E"}
+    ],
+    [
+        {"answer" : "L", "option" : "A"}, 
+        {"answer" : "O", "option" : "B"}, 
+        {"answer" : "R", "option" : "C"}, 
+        {"answer" : "5", "option" : "D"}, 
+        {"answer" : "&#8472", "option" : "E"}
+    ],
+    [
+        {"answer" : "U", "option" : "A"}, 
+        {"answer" : "G", "option" : "B"}, 
+        {"answer" : "7", "option" : "C"}, 
+        {"answer" : "&#8473", "option" : "D"}, 
+        {"answer" : "R", "option" : "E"}
+    ],
+    [
+        {"answer" : "F", "option" : "A"}, 
+        {"answer" : "&#8455", "option" : "B"}, 
+        {"answer" : "&#8515", "option" : "C"}, 
+        {"answer" : "7", "option" : "D"}, 
+        {"answer" : "T", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#8514", "option" : "A"}, 
+        {"answer" : "&#9837", "option" : "B"}, 
+        {"answer" : "O", "option" : "C"}, 
+        {"answer" : "W", "option" : "D"}, 
+        {"answer" : "R", "option" : "E"}
+    ],
+    [
+        {"answer" : "P", "option" : "A"}, 
+        {"answer" : "&#9833", "option" : "B"}, 
+        {"answer" : "5", "option" : "C"}, 
+        {"answer" : "7", "option" : "D"}, 
+        {"answer" : "R", "option" : "E"}
+    ],
+    [
+        {"answer" : "L", "option" : "A"}, 
+        {"answer" : "2", "option" : "B"}, 
+        {"answer" : "0", "option" : "C"}, 
+        {"answer" : "&#8515", "option" : "D"}, 
+        {"answer" : "O", "option" : "E"}
+    ],
+    [
+        {"answer" : "9", "option" : "A"}, 
+        {"answer" : "G", "option" : "B"}, 
+        {"answer" : "&#8487", "option" : "C"}, 
+        {"answer" : "P", "option" : "D"}, 
+        {"answer" : "W", "option" : "E"}
+    ],
+    [
+        {"answer" : "H", "option" : "A"}, 
+        {"answer" : "6", "option" : "B"}, 
+        {"answer" : "G", "option" : "C"}, 
+        {"answer" : "&#10003", "option" : "D"}, 
+        {"answer" : "R", "option" : "E"}
+    ],
+    [
+        {"answer" : "&#8488", "option" : "A"}, 
+        {"answer" : "5", "option" : "B"}, 
+        {"answer" : "J", "option" : "C"}, 
+        {"answer" : "D", "option" : "D"}, 
+        {"answer" : "1", "option" : "E"}
+    ]
+]

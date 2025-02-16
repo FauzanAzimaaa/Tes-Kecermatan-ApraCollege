@@ -1,0 +1,72 @@
+[
+    [
+        {"answer" : "O", "option" : "A"}, 
+        {"answer" : "H", "option" : "B"}, 
+        {"answer" : "K", "option" : "C"}, 
+        {"answer" : "V", "option" : "D"}, 
+        {"answer" : "B", "option" : "E"}
+    ],
+    [
+        {"answer" : "G", "option" : "A"}, 
+        {"answer" : "H", "option" : "B"}, 
+        {"answer" : "Z", "option" : "C"}, 
+        {"answer" : "W", "option" : "D"}, 
+        {"answer" : "Q", "option" : "E"}
+    ],
+    [
+        {"answer" : "C", "option" : "A"}, 
+        {"answer" : "S", "option" : "B"}, 
+        {"answer" : "F", "option" : "C"}, 
+        {"answer" : "M", "option" : "D"}, 
+        {"answer" : "V", "option" : "E"}
+    ],
+    [
+        {"answer" : "N", "option" : "A"}, 
+        {"answer" : "I", "option" : "B"}, 
+        {"answer" : "A", "option" : "C"}, 
+        {"answer" : "Z", "option" : "D"}, 
+        {"answer" : "R", "option" : "E"}
+    ],
+    [
+        {"answer" : "M", "option" : "A"}, 
+        {"answer" : "H", "option" : "B"}, 
+        {"answer" : "D", "option" : "C"}, 
+        {"answer" : "T", "option" : "D"}, 
+        {"answer" : "P", "option" : "E"}
+    ],
+    [
+        {"answer" : "C", "option" : "A"}, 
+        {"answer" : "X", "option" : "B"}, 
+        {"answer" : "H", "option" : "C"}, 
+        {"answer" : "F", "option" : "D"}, 
+        {"answer" : "O", "option" : "E"}
+    ],
+    [
+        {"answer" : "H", "option" : "A"}, 
+        {"answer" : "E", "option" : "B"}, 
+        {"answer" : "S", "option" : "C"}, 
+        {"answer" : "O", "option" : "D"}, 
+        {"answer" : "P", "option" : "E"}
+    ],
+    [
+        {"answer" : "O", "option" : "A"}, 
+        {"answer" : "P", "option" : "B"}, 
+        {"answer" : "T", "option" : "C"}, 
+        {"answer" : "L", "option" : "D"}, 
+        {"answer" : "I", "option" : "E"}
+    ],
+    [
+        {"answer" : "S", "option" : "A"}, 
+        {"answer" : "R", "option" : "B"}, 
+        {"answer" : "Y", "option" : "C"}, 
+        {"answer" : "L", "option" : "D"}, 
+        {"answer" : "I", "option" : "E"}
+    ],
+    [
+        {"answer" : "S", "option" : "A"}, 
+        {"answer" : "R", "option" : "B"}, 
+        {"answer" : "Y", "option" : "C"}, 
+        {"answer" : "W", "option" : "D"}, 
+        {"answer" : "V", "option" : "E"}
+    ]
+]
